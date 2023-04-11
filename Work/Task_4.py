@@ -9,7 +9,7 @@ n = int(input())
 print('How many slices do you want to get?')
 k = int(input())
 
-if (k % m == 0 or k % n == 0 ):
+if ((k % m == 0 or k % n == 0) and (m * n != k)):
     print('It\'s possible')
 else:
     print('It\'s impossible')
